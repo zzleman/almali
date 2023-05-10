@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 50px;
+    cursor: pointer;
+}
+#Search{
+    width: 800px;
+    height: 43px;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor:text;
+    border: 1px solid lightgray;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -102px;
+    display: none;
+    padding-bottom: 100vw;
+    width: 40.5vw;
+    border: 2px solid lightgray;
+    background-color: white;
+}
+.dropdown a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    width: 40vw;
+    height: 45px;
+    background-color: white;
+}
+.phonediv ul{
+    background-color: white;
+}
+.phoneOK,.tabletOK{
+    display: none;
+}
+.phonediv ul,.tvdiv ul{
+    display: none;
+}
+.phonediv ol{
+    display: none;
+}
+.tvOK-1 ul{
+    display: none;
+}
+.watchdiv ol{
+    display: none;
+    background-color: white;
+}
+
+.dropdown li{
+    list-style: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid lightgray;
+    width: 40vw;
+    height: 45px;
+    margin-left: -30px;
+    background-color: white;
+}
+.resheader{
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+
+}
+.resheader img{
+    height: 50px;
+    cursor: pointer;
+}
+.header-alt{
+    margin-top: 10px;
+    background-color: rgb(254, 26, 26);
+    display: none;
+    position: relative;
+    
+}
+#Search2{
+    background: url(/assets/images/109-1098162_find-search-zoom-magnifying-glass-search-magnifying-glass.png) no-repeat right;;
+    background-size: 20px;
+    width: 95vw;
+    height: 43px;
+    padding-left: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+    cursor:text;
+    border: 1px solid lightgray;
+    justify-content:center ;
+    background-color: rgb(254, 26, 26);
+    border: 1px solid gray;
+}
+.navbar{
+    display: flex;
+    font-size: 13px;
+    background-color: rgb(254, 26, 26);
+    border: 6px solid transparent;
+    margin-top: 5px;
+}
+.navbar a{
+    color:white ;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+.navbar a:hover{
+    color: lightgray;
+}
+.firstsec img{
+    height: 100px;
+    width: 100px;
+}
+.firstsec{
+    display: inline-flex;
+    gap: 250px;
+    margin-top: 30px;
+    display: none;
+}
+.firstsec a{
+    color: black;
+    text-decoration: none;
+
+}
+.first-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-left li{
+    list-style: none;
+    padding-top: 20px;
+}
+.first-right{
+    display: flex;
+    flex-direction: column;
+}
+.first-right li{
+    list-style: none;
+    padding-top: 20px;
+}
+.secondsec{
+    display: flex;
+    gap: 250px;
+    margin-top: 30px;
+    display: none;
+    margin-left: 200px;
+}
+.secondsec a{
+    color: black;
+    text-decoration: none;
+    
+}
+.secondsec li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.thirdsec{
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+    justify-content: center;
+    display: none;
+}
+.thirdsec a{
+    color: black;
+    text-decoration: none;
+}
+.third-1,.third-2,.third-3,.third-4,.third-5,.third-6{
+    display: flex;
+    flex-direction: column;
+}
+.third-1 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.third-2 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.third-3 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.third-4 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.third-5 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.third-6 li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.fourthsec{
+    /* display: flex; */
+    gap: 150px;
+    margin-top: 30px;
+    justify-content: center;
+    display: none;
+}
+.fourthsec a{
+    color: black;
+    text-decoration: none;
+}
+.fourth-left li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fourth-mid li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fourth-right li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.fifthsec{
+    gap: 80px;
+    margin-top: 30px;
+    display: none;
+}
+.fifthsec a{
+    color: black;
+    text-decoration: none;
+}
+.fifth-1 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-2 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-3 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-4 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-5 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-6 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.fifth-7 li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.sixthsec{
+    gap: 200px;
+    justify-content: center;
+    margin-top: 30px;
+    display: none;
+}
+.sixthsec a{
+    color: black;
+    text-decoration: none;
+}
+.sixth-left li{
+    list-style: none;
+    padding-top: 10px;
+}
+.sixth-mid li{
+    list-style: none;
+    padding-top: 10px;
+}
+.sixth-right li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.seventhsec{
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;
+    display: none;
+}
+.seventhsec a{
+    color: black;
+    text-decoration: none;
+}
+.seventh-1 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.seventh-2 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.seventh-3 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.seventh-4 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.seventh-5 li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.eighthsec{
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;
+    display: none;
+}
+.eighthsec a{
+    color: black;
+    text-decoration: none;
+}
+.eighth-1 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.eighth-2 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.eighth-3{
+    margin-top: 60px;
+}
+.eighth-3 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.eighth-4 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.eighth-5{
+    margin-top: 60px;
+}
+.eighth-5 li{
+    list-style: none;
+    padding-top: 10px;
+}
+.eighth-6 li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width : 768px) {
+    .navbar{
+        display: none !important;
+    }
+    header{
+        display: none;
+        margin-top: 200px;
+    }
+    .resheader,.header-alt{
+        display: flex;
+    }
+    ::placeholder{
+        color: white;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width: 1200px){
+    .navbar{
+        display: none !important;
+    }
+    header{
+        display: none;
+        margin-top: 200px;
+    }
+    .resheader,.header-alt{
+        display: flex;
+    }
+    ::placeholder{
+        color: white;
+        opacity: 1;
+    }
+}
