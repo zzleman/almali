@@ -131,12 +131,13 @@ burger.addEventListener("click", () =>{
 let dpPhone= document.querySelector(".dpPhone")
 let phoneOK=document.querySelector(".phoneOK")
 let tabletOK=document.querySelector(".tabletOK")
+let chevron = document.querySelector("i")
 let isOpenPHUL=false;
 dpPhone.addEventListener("click", () =>{
-    
     if(!isOpenPHUL) {
         phoneOK.style.display="block"
         tabletOK.style.display="block"
+        chevron.style.transform="180"
     }else{
         phoneOK.style.display="none"
         tabletOK.style.display="none"
@@ -144,7 +145,7 @@ dpPhone.addEventListener("click", () =>{
     isOpenPHUL=!isOpenPHUL
 })
 
-let dpPhoneUl=document.querySelector(".phonediv ul")
+let dpPhoneUl=document.querySelector(".dropdown ul")
 let isOpenONE=false;
 phoneOK.addEventListener("click", () =>{
     if(!isOpenONE) {
@@ -155,7 +156,7 @@ phoneOK.addEventListener("click", () =>{
     isOpenONE=!isOpenONE
 })
 
-let dpPhoneOl=document.querySelector(".phonediv ol")
+let dpPhoneOl=document.querySelector(".dropdown ol")
 let isOpenTWO=false;
 tabletOK.addEventListener("click", () =>{
     if(!isOpenTWO) {

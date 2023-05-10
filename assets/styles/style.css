@@ -20,6 +20,14 @@ header img{
     cursor:text;
     border: 1px solid lightgray;
 }
+.exit{
+    font-size: 22px;
+    padding-left: 10px;
+}
+span{
+    padding-left: 20px;
+    display: none;
+}
 .dropdown{
     display: flex;
     flex-direction: column;
@@ -39,21 +47,19 @@ header img{
     height: 45px;
     background-color: white;
 }
-.phonediv ul{
+.dropdown ul{
     background-color: white;
 }
 .phoneOK,.tabletOK{
     display: none;
 }
-.phonediv ul,.tvdiv ul{
+.dropdown ul{
     display: none;
 }
-.phonediv ol{
+.dropdown ol{
     display: none;
 }
-.tvOK-1 ul{
-    display: none;
-}
+
 .watchdiv ol{
     display: none;
     background-color: white;
@@ -88,7 +94,7 @@ header img{
     
 }
 #Search2{
-    background: url(/assets/images/109-1098162_find-search-zoom-magnifying-glass-search-magnifying-glass.png) no-repeat right;;
+    background: url(/assets/images/109-1098162_find-search-zoom-magnifying-glass-search-magnifying-glass-removebg-preview.png) no-repeat right ;
     background-size: 20px;
     width: 95vw;
     height: 43px;
@@ -389,6 +395,9 @@ header img{
     header{
         display: none;
         margin-top: 200px;
+    }
+    span{
+        display: inline-flex;
     }
     .resheader,.header-alt{
         display: flex;
